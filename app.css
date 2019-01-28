@@ -4,6 +4,24 @@ html, body {
 .navbar {
   margin-bottom: 0px !important;
 }
+.navbar-default {
+  padding-top: 20px;
+  background-color: transparent !important;
+  border-color: transparent !important;
+}
+.navbar-brand{
+  font-size: 42px !important;
+}
+.navbar-default .navbar-nav>li>a {
+    font-size: 22px !important;
+    margin: auto 0;
+}
+.navbar-default .navbar-nav>li>a:hover {
+    color: yellow !important;
+}
+.navbar-default .navbar-brand:hover {
+    color:yellow !important;
+}
 .row {
   margin: 0px 0px 0px 0px !important;
 }
@@ -24,8 +42,4 @@ html, body {
   height: 100%;
   width: 100%;
   background-image: linear-gradient(45deg, #ccffff, #ffcccc);
-}
-.jumbotron {
-  margin-top: 70px;
-  background-image: linear-gradient(45deg, #ccff99, #00ddee);
 }
