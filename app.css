@@ -11,19 +11,55 @@ html, body {
 }
 .navbar-brand{
   font-size: 42px !important;
+  font-family: 'Righteous', cursive !important;
+  text-shadow: 1px 1px 2px greenyellow,
+               1px 1px 2px black;
+  color: white !important;
+  opacity: 0.5;
 }
 .navbar-default .navbar-nav>li>a {
     font-size: 22px !important;
-    margin: auto 0;
+    font-family: 'Lobster', cursive !important;
+    color: white !important;
+    text-shadow: 1px 1px 2px greenyellow;
+    opacity: 0.7;
+   
 }
 .navbar-default .navbar-nav>li>a:hover {
     color: yellow !important;
+    opacity: 1;
 }
 .navbar-default .navbar-brand:hover {
     color:yellow !important;
+    opacity: 1;
 }
+
 .row {
   margin: 0px 0px 0px 0px !important;
+}
+
+.home-label {
+  margin: 13% auto !important;
+  color: white;
+  text-align: center;
+}
+h2 {   
+  opacity: 0.5;
+  font-size: 130px !important;
+  font-family: 'Lobster', cursive !important;
+  text-shadow: 1px 1px 2px greenyellow,
+               1px 1px 2px black;
+  padding: 2px;    
+}
+
+p {
+  font-size: 150% !important;
+  font-family: 'Amatic SC', cursive !important;
+  font-weight: bold !important;
+  text-shadow: 1px 1px 2px goldenrod,
+               1px 1px 2px black,
+               1px 1px 2px black;
+  padding: 5px;
 }
 
 .row-1 {
@@ -36,10 +72,15 @@ html, body {
 .row-2 {
   height: 100%;
   width: 100%;
-  background-image: linear-gradient(45deg, #d6ffcc, #ffcccc);
+  background-image: linear-gradient(45deg, #d6ffcc, hsla(110, 97%, 54%, 0.616));
 }
 .row-3 {
   height: 100%;
   width: 100%;
-  background-image: linear-gradient(45deg, #ccffff, #ffcccc);
+  background-image: linear-gradient(45deg, #ccffe1, hsla(133, 94%, 49%, 0.541));
+}
+.row-4 {
+  height: 100%;
+  width: 100%;
+  background-image: linear-gradient(0deg, #ccffff, hsla(123, 91%, 58%, 0.616));
 }
