@@ -44,12 +44,11 @@ html, body {
   text-align: center;
 }
 h2 {   
-  opacity: 0.5;
   font-size: 130px !important;
   font-family: 'Lobster', cursive !important;
-  text-shadow: 1px 1px 2px greenyellow,
-               1px 1px 2px black;
-  padding: 2px;    
+  text-shadow: 3px 3px 20px greenyellow,
+               3px 3px 20px black !important;
+  padding: 2px;  
 }
 
 p {
@@ -62,6 +61,16 @@ p {
   padding: 5px;
 }
 
+.btn {
+  transform: scale(1.5);
+  background-color: yellow !important;
+  border-color: transparent !important;
+  font-weight: bold !important;
+  box-shadow: 1px 1px 1px 1px rgba(255, 255, 255, .2),
+              1px 1px 1px 1px rgba(255, 255, 255, .2);
+  border-radius: 50px !important;
+  margin-top: 10px;
+}
 .row-1 {
   height: inherit;
   width: inherit;
@@ -70,6 +79,7 @@ p {
   background-size: cover;
   background-position: center;
 }
+
 .row-2 {
   height: inherit;
   width: inherit;
